@@ -1,0 +1,22 @@
+In Command Prompt:
+cd Desktop
+mkdir Project-2
+cd Project-2
+python -m venv venv
+venv\Scripts\activate
+pip3 install django twilio
+pip install django
+code .
+django-admin startproject project2
+cd project2
+python manage.py startapp authentication
+python manage.py runserver
+http://127.0.0.1:8000/
+python manage.py migrate
+python manage.py makemigrations
+python manage.py createsuperuser
+
+
+
+
+
